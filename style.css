@@ -12,23 +12,26 @@ img {
   margin-right: auto;
   width: 50%;
 }
-nav {
-  text-align: center;
-}
-a {
- padding:10px;
- background-color: grey;
-}
+
 figcaption {
   text-align: center;
   font-size: 10px;
 }
-#featured-property ~ p {
-  text-align: center;
-  width: 800px;
+nav a {
+  padding: 0 10px;
+  background-color: grey;
+  margin: 0 auto;
 }
-div {
-  background-color: red;
+
+#featured-property p {
+  width: 800px;
   text-align: center;
+  margin: 0 auto;
+}
+
+#details div{
+  float: left;
+  background-color: red;
   width: 25%;
+  text-align: center;
 }
